@@ -1,0 +1,38 @@
+{
+  "name": "cra-template-proste",
+  "version": "1.0.0",
+  "description": "Integrate common functions for create-react-app",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyhxx/cra-template-proste.git"
+  },
+  "keywords": [
+    "create-react-app",
+    "react",
+    "template",
+    "redux",
+    "react-route",
+    "react-redux",
+    "axios",
+    "eslint",
+    "typescript",
+    "testing-library/react",
+    "sass",
+    "alias",
+    "craco"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "author": "xyhxx(603331487@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyhxx/cra-template-proste/issues"
+  },
+  "homepage": "https://github.com/xyhxx/cra-template-proste#readme"
+}
