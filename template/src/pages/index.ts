@@ -1,1 +1,1 @@
-export {default as App} from './App/Index';
+export * from './App/Index';
