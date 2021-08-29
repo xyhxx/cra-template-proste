@@ -14,8 +14,8 @@
       "@controllers/*": [
         "./controllers/*"
       ],
-      "@components/*": [
-        "./components/*"
+      "@hooks/*": [
+        "./hooks/*"
       ],
       "@pages/*": [
         "./pages/*"

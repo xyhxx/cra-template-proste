@@ -40,7 +40,7 @@ npx create-react-app <name> --template proste
 
 # 🎊Preset
 
-✅ folder(pages, routes, apis, assets, components, controllers, stores, styles, utils)
+✅ folder(pages, routes, apis, assets, hooks, controllers, stores, styles, utils)
 
 ✅ alias(@pages, @routes, @apis...)
 

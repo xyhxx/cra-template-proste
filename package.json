@@ -1,6 +1,6 @@
 {
   "name": "cra-template-proste",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Integrate common functions for create-react-app",
   "main": "template.json",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "create-react-app",
+    "react-template",
     "react",
     "template",
     "redux",
