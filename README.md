@@ -32,7 +32,7 @@ npx create-react-app <name> --template proste
 
 ✅ sass
 
-✅ eslint (typescrint settings... preset rules...)
+✅ eslint (typescript settings... preset rules...)
 
 ✅ craco
 
