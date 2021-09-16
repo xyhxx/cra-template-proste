@@ -1,5 +1,5 @@
-import {fireEvent, render, screen as sc} from '@testing-library/react';
-import {App} from '../App/Index';
+import { App } from '@pages/App/Index';
+import { fireEvent, render, screen as sc } from '@testing-library/react';
 
 test(`
   1. click increment btn, innterHTML is count is 1
