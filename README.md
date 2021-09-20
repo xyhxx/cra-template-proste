@@ -16,11 +16,7 @@ npx create-react-app <name> --template proste
 # ✨Packages
 > typescript is used in the project, and all dependencies that need to install @types/xxx have been added
 
-✅ redux
-
-✅ react-redux
-
-✅ redux-thunk
+✅ recoil
 
 ✅ react-route-dom
 
@@ -40,7 +36,7 @@ npx create-react-app <name> --template proste
 
 # 🎊Preset
 
-✅ folder(pages, routes, apis, assets, hooks, controllers, stores, styles, utils)
+✅ folder(pages, routes, apis, assets, hooks, components, stores, styles, utils)
 
 ✅ alias(@pages, @routes, @apis...)
 

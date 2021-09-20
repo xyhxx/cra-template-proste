@@ -11,8 +11,8 @@
       "@assets/*": [
         "./assets/*"
       ],
-      "@controllers/*": [
-        "./controllers/*"
+      "@components/*": [
+        "./components/*"
       ],
       "@hooks/*": [
         "./hooks/*"
