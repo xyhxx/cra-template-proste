@@ -7,7 +7,7 @@ const babelPluginList = [];
 // add remove properties in production
 // test use date-testid
 // this propertis neet to remove in production
-const removePlugin = [
+const bablePlugin = [
   "react-remove-properties",
   {
     "properties": [
@@ -21,14 +21,14 @@ if (ENV === 'production') {
 
 module.exports = {
   plugins: [
-  　　{
-  　　　　plugin: CracoAlias,
-  　　　　options: {
-  　　　　　　source: "tsconfig",
-  　　　　　　baseUrl: "./src",
-  　　　　　　tsConfigPath: "./tsconfig.extend.json",
-  　　　　}
-  　　}
+    {
+      plugin: CracoAlias,
+      options: {
+        source: "tsconfig",
+        baseUrl: "./src",
+        tsConfigPath: "./tsconfig.extend.json",
+      }
+    }
   ],
   babel: {
     plugins: babelPluginList,

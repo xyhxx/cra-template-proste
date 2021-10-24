@@ -1,1 +1,1 @@
-export * from './App/Index';
+export * from './app/App';

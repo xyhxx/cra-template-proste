@@ -38,7 +38,7 @@ npx create-react-app <name> --template proste
 
 ✅ folder(pages, routes, apis, assets, hooks, components, stores, styles, utils)
 
-✅ alias(@pages, @routes, @apis...)
+✅ alias(@/pages, @/routes, @/apis...)
 
 ✅ reamove data-testid in production (use babel-plugin-react-remove-properties)
 

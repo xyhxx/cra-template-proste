@@ -1,5 +1,5 @@
-import routes from '@routes/index';
-import '@styles/index.scss';
+import routes from '@/routes/index';
+import '@/styles/index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { renderRoutes } from 'react-router-config';

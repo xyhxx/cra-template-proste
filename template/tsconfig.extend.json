@@ -5,31 +5,31 @@
       "@/*": [
         "./*"
       ],
-      "@apis/*": [
+      "@/apis/*": [
         "./apis/*"
       ],
-      "@assets/*": [
+      "@/assets/*": [
         "./assets/*"
       ],
-      "@components/*": [
+      "@/components/*": [
         "./components/*"
       ],
-      "@hooks/*": [
+      "@/hooks/*": [
         "./hooks/*"
       ],
-      "@pages/*": [
+      "@/pages/*": [
         "./pages/*"
       ],
-      "@routes/*": [
+      "@/routes/*": [
         "./routes/*"
       ],
-      "@stores/*": [
+      "@/stores/*": [
         "./stores/*"
       ],
-      "@styles/*": [
+      "@/styles/*": [
         "./styles/*"
       ],
-      "@utils/*": [
+      "@/utils/*": [
         "./utils/*"
       ]
     }
