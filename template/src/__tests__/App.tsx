@@ -1,4 +1,4 @@
-import { App } from '@/pages/app/App';
+import { App } from '@/pages/index';
 import { fireEvent, render, screen as sc } from '@testing-library/react';
 
 test(`

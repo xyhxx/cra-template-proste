@@ -1,6 +1,6 @@
 {
   "name": "cra-template-proste",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Integrate common functions for create-react-app",
   "main": "template.json",
   "scripts": {
