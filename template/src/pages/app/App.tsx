@@ -1,7 +1,7 @@
 import { FC, useState } from 'react';
 import style from './app.module.scss';
 
-export const App: FC = () => {
+const App: FC = () => {
   const [count, setCount] = useState(0);
 
   return <>
@@ -12,3 +12,5 @@ export const App: FC = () => {
     </div>
   </>;
 };
+
+export default App;
