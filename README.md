@@ -20,7 +20,7 @@ npx create-react-app <name> --template proste
 
 ✅ react-route-dom
 
-✅ react-route-config
+✅ react-route-config(remove in v3.0.0)
 
 ✅ typescript
 
