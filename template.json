@@ -1,36 +1,55 @@
 {
   "package": {
     "dependencies": {
-      "recoil": "^0.5.1",
+      "axios": "^0.24.0",
+      "ahooks": "^3.0.5",
+      "recoil": "^0.5.2",
+      "lodash": "^4.17.21",
+      "react-query": "^3.34.5",
       "react-router-dom": "^6.0.2",
-      "axios": "^0.24.0"
+      "react-error-boundary": "^3.1.4"
     },
     "devDependencies": {
       "@testing-library/jest-dom": "^5.11.4",
       "@testing-library/react": "^12.1.0",
       "@testing-library/user-event": "^13.2.1",
-      "@types/jest": "^27.0.1",
-      "@types/node": "^16.9.1",
-      "@types/react": "^17.0.0",
-      "@types/react-dom": "^17.0.0",
-      "@craco/craco": "^6.2.0",
-      "@types/react-router-dom": "^5.3.2",
       "@typescript-eslint/eslint-plugin": "^5.4.0",
       "@typescript-eslint/parser": "^5.4.0",
-      "sass": "^1.37.5",
-      "typescript": "^4.5.2",
+      "@types/jest": "^27.0.1",
+      "@types/node": "^17.0.0",
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@craco/craco": "^6.4.3",
+      "@types/react-router-dom": "^5.3.2",
+      "@types/lodash": "^4.14.178",
+      "sass": "^1.45.0",
+      "typescript": "^4.5.4",
       "babel-plugin-react-remove-properties": "^0.3.0",
       "craco-alias": "^3.0.1",
-      "eslint": "^7.32.0",
-      "eslint-config-proste": "^2.4.1",
+      "eslint": "^8.5.0",
+      "eslint-config-proste": "^2.4.3",
       "eslint-plugin-react": "^7.27.1",
       "eslint-plugin-import": "^2.25.3",
-      "eslint-plugin-react-hooks": "^4.3.0"
+      "eslint-plugin-react-hooks": "^4.3.0",
+      "prettier": "^2.5.1",
+      "postcss": "^8.4.5",
+      "stylelint-scss": "^4.0.1",
+      "stylelint": "^14.1.0",
+      "stylelint-config-recess-order": "^3.0.0",
+      "stylelint-config-standard": "^24.0.0",
+      "stylelint-config-standard-scss": "^3.0.0",
+      "stylelint-config-prettier": "^9.0.3",
+      "stylelint-order": "^5.0.0"
     },
     "scripts": {
       "start": "craco start",
       "build": "craco build",
-      "test": "craco test"
+      "test": "craco test",
+      "lint:style": "stylelint src/**/*.*.scss",
+      "lint:script": "eslint . --ext .js,.jsx,.ts,.tsx",
+      "lint:style-fix": "npm run lint:style -- --fix",
+      "lint:script-fix": "npm run lint:script -- --fix",
+      "prettier": "prettier -c --write **/*"
     }
   }
 }

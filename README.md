@@ -1,26 +1,24 @@
 <img src="https://raw.githubusercontent.com/xyhxx/program_preview/master/logo/cra-template.png" />
 
-<h3 style="text-align: center;">Integrate common functions and configurations, start your work faster. I guarantee the update frequency of this library, so please feel free to use it if you find it useful to you!
-</h3>
-
-
+<h3 style="text-align: center;">Integrate common functions and configurations, start your work faster. I guarantee the update frequency of this library, so please feel free to use it if you find it useful to you!</h3>
 
 # 🎆Install & Useage
 
-``` 
+```
 npx create-react-app <name> --template proste
 ```
 
-> <a href="https://github.com/xyhxx/react-proste-template-demo/tree/master">this demo</a> uses the current template and implements all plug-in functions, unit testing and integration testing
+> <a href="https://github.com/xyhxx/react-proste-template-demo/tree/master">this demo</a> uses the
+> current template and implements all plug-in functions, unit testing and integration testing
 
 # ✨Packages
-> typescript is used in the project, and all dependencies that need to install @types/xxx have been added
+
+> typescript is used in the project, and all dependencies that need to install @types/xxx have been
+> added
 
 ✅ recoil
 
 ✅ react-route-dom
-
-✅ react-route-config(remove in v3.0.0)
 
 ✅ typescript
 
@@ -28,11 +26,19 @@ npx create-react-app <name> --template proste
 
 ✅ sass
 
-✅ eslint (typescript settings... preset rules...)
-
 ✅ craco
 
 ✅ testing-library
+
+✅ react-query
+
+✅ lodash
+
+✅ ahooks
+
+✅ postcss
+
+✅ react-error-boundary
 
 # 🎊Preset
 
@@ -44,4 +50,6 @@ npx create-react-app <name> --template proste
 
 ✅ eslint config(use eslint-config-proste)
 
+✅ stylelint config
 
+✅ prettier config

@@ -4,9 +4,7 @@ import { useRoutes } from 'react-router';
 import { APP_PAGE } from './name';
 
 const PrivateRoutes: FC = () => {
-  const Routes = useRoutes([
-    { path: APP_PAGE, element: <App /> },
-  ]);
+  const Routes = useRoutes([{ path: APP_PAGE, element: <App /> }]);
 
   return Routes;
 };

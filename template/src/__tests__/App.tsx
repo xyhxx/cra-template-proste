@@ -6,9 +6,11 @@ test(`
   1. click increment btn, innterHTML is count is 1
   2. click reduce btn, innertTHML is count is 0
 `, () => {
-  render(<Router>
-    <PrivateRoutes />
-  </Router>);
+  render(
+    <Router>
+      <PrivateRoutes />
+    </Router>,
+  );
 
   const incrementBtn = sc.getByTestId('increment');
   const reduceBtn = sc.getByTestId('reduce');
