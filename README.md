@@ -34,8 +34,6 @@ npx create-react-app <name> --template proste
 
 ✅ lodash
 
-✅ ahooks
-
 ✅ postcss
 
 ✅ react-error-boundary
