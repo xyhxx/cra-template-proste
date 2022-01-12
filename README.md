@@ -38,6 +38,8 @@ npx create-react-app <name> --template proste
 
 ✅ react-error-boundary
 
+✅ classnames
+
 # 🎊Preset
 
 ✅ folder(pages, routes, apis, assets, hooks, components, stores, styles, utils)
