@@ -1,4 +1,4 @@
-import css from './app.module.scss';
+import css from './index.module.scss';
 
 import { FC, useState } from 'react';
 
