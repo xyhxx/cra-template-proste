@@ -1,4 +1,4 @@
-import PrivateRoutes from '@/routes';
+import PrivateRoutes from '@routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { fireEvent, render, screen as sc } from '@testing-library/react';
 

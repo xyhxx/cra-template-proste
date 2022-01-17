@@ -2,7 +2,7 @@ import css from './index.module.scss';
 
 import { FC, useState } from 'react';
 
-const App: FC = () => {
+const Index: FC = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -22,4 +22,4 @@ const App: FC = () => {
   );
 };
 
-export default App;
+export default Index;

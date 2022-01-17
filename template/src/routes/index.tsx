@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { App } from '@/pages';
+import { App } from '@pages';
 import { useRoutes } from 'react-router';
 import { APP_PAGE } from './name';
 

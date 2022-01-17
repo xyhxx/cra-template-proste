@@ -42,9 +42,11 @@ npx create-react-app <name> --template proste
 
 # 🎊Preset
 
+> Alias folders are exported using index
+
 ✅ folder(pages, routes, apis, assets, hooks, components, stores, styles, utils)
 
-✅ alias(@/pages, @/routes, @/apis...)
+✅ alias(@pages, @routes, @apis...)
 
 ✅ reamove data-testid in production (use babel-plugin-react-remove-properties)
 

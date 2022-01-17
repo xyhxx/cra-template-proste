@@ -1,6 +1,6 @@
-import '@/styles/index.scss';
+import '@styles/index.scss';
 
-import PrivateRoutes from '@/routes';
+import PrivateRoutes from '@routes';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
