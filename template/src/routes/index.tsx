@@ -10,3 +10,4 @@ const PrivateRoutes: FC = () => {
 };
 
 export default PrivateRoutes;
+export * from './name';
