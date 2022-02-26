@@ -1,1 +1,1 @@
-export const APP_PAGE = '/';
+export const HOME_PAGE = '/';

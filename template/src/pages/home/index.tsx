@@ -2,7 +2,7 @@ import css from './index.module.scss';
 
 import { FC, useState } from 'react';
 
-const Index: FC = function () {
+const Home: FC = function () {
   const [count, setCount] = useState(0);
 
   return (
@@ -22,4 +22,4 @@ const Index: FC = function () {
   );
 };
 
-export default Index;
+export default Home;
