@@ -1,12 +1,12 @@
 import '@styles/index.scss';
 
 import PrivateRoutes from '@routes';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { RecoilRoot } from 'recoil';
+import { StrictMode } from 'react';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -16,8 +16,10 @@ const queryClient = new QueryClient({
   },
 });
 
-ReactDOM.render(
-  <React.StrictMode>
+const root = createRoot(document.getElementById('root')!);
+
+root.render(
+  <StrictMode>
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools position='top-right' />
       <RecoilRoot>
@@ -26,6 +28,5 @@ ReactDOM.render(
         </Router>
       </RecoilRoot>
     </QueryClientProvider>
-  </React.StrictMode>,
-  document.getElementById('root'),
+  </StrictMode>,
 );

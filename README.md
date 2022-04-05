@@ -32,8 +32,6 @@ npx create-react-app <name> --template proste
 
 ✅ react-query
 
-✅ lodash
-
 ✅ postcss
 
 ✅ react-error-boundary
