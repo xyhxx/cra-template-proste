@@ -38,6 +38,8 @@ npx create-react-app <name> --template proste
 
 ✅ classnames
 
+✅ proste-react-use
+
 # 🎊Preset
 
 > Alias folders are exported using index
