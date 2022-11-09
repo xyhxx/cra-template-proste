@@ -2,3 +2,4 @@
 *.ts
 *.jsx
 *.tsx
+build/
