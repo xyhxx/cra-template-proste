@@ -1,6 +1,6 @@
 import PrivateRoutes from '@routes';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { fireEvent, render, screen as sc } from '@testing-library/react';
+import {BrowserRouter as Router} from 'react-router-dom';
+import {fireEvent, render, screen as sc} from '@testing-library/react';
 
 test(`
   1. click increment btn, innterHTML is count is 1

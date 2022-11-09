@@ -28,16 +28,16 @@ export default {
       }),
     );
 
-    webpackConfig.optimization.splitChunks = {
-      cacheGroups: {
-        common: {
-          name: 'chunk-common',
-          chunks: 'all',
-          test: /(react|react-dom|react-dom-router)/,
-          priority: -10,
-        },
-      },
-    };
+    // webpackConfig.optimization.splitChunks = {
+    //   cacheGroups: {
+    //     common: {
+    //       name: 'chunk-common',
+    //       chunks: 'all',
+    //       test: /(react|react-dom|react-dom-router)/,
+    //       priority: -10,
+    //     },
+    //   },
+    // };
 
     webpackConfig.cache = {
       type: 'filesystem',

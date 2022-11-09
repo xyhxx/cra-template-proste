@@ -8,6 +8,11 @@ html {
 .title {
   padding-top: 20vh;
   text-align: center;
+  transition: color 300ms linear;
+}
+
+.red-title {
+  color: red;
 }
 
 .btn-group {

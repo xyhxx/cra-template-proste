@@ -16,7 +16,7 @@ npx create-react-app <name> --template proste
 > typescript is used in the project, and all dependencies that need to install @types/xxx have been
 > added
 
-✅ recoil
+✅ zustand
 
 ✅ react-route-dom
 
@@ -36,10 +36,6 @@ npx create-react-app <name> --template proste
 
 ✅ react-error-boundary
 
-✅ classnames
-
-✅ proste-react-use
-
 # 🎊Preset
 
 > Alias folders are exported using index
@@ -53,5 +49,3 @@ npx create-react-app <name> --template proste
 ✅ eslint config(use eslint-config-proste)
 
 ✅ stylelint config
-
-✅ prettier config
